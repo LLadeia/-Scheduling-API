@@ -1,0 +1,34 @@
+# 🔐 Ambiente virtual
+venv/
+.env/
+
+# 🐍 Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 🧪 Testes
+.pytest_cache/
+
+# 📦 Build
+dist/
+build/
+*.egg-info/
+
+# 🗄️ Banco local (se usar SQLite futuramente)
+*.db
+
+# 🔑 Variáveis sensíveis
+.env
+
+# 🧠 IDE / Editor
+.vscode/
+.idea/
+
+# 🐳 Docker
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
